@@ -1,3 +1,25 @@
-.menuBar{
-background-color: lightseagreen;
+.menuBar {
+  background-color: #ff3f00;
+  overflow: hidden; /* control overflow */
+}
+
+.menuBar a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  display: block;
+  padding: 25px 45px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.menuBar a.mhome{
+    background-color:#fec89a;
+    color:#1d3557;
+}
+
+.menuBar a:hover{
+    background-color:#fec89a;
+    transition:0.5s;
+    color:#1d3557;
 }
