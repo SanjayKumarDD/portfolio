@@ -103,8 +103,43 @@ nav ul :hover {
   color: #e71d36;
 }
 
+.aboutMe .aHireme {
+  /* border-top:50px solid black; */
+  width: 290px;
+  text-align: center;
+  grid-area: vd;
+}
 .aboutMe .aHireme:hover {
   box-shadow: 10px 10px lightblue;
+}
+
+.aboutMe {
+  background-color: #8d99ae;
+  padding: 10px 0px 40px;
+  display: grid;
+
+  /* flex-wrap:wrap; */
+  /* grid-co; */
+  /* grid */
+}
+.aboutMe h1 {
+  text-align: center;
+  font-weight: 1000;
+}
+
+.aboutMe p {
+  /* display:flex; */
+  /* align-content: center; */
+  /* place-self:center; */
+  /* align-self:center; */
+  border: 2px solid black;
+  text-align: center;
+}
+.profile {
+  height: 600px;
+  width: 400px;
+  object-fit: cover;
+  border-radius: 20%;
 }
 
 footer {
@@ -113,7 +148,7 @@ footer {
   text-align: center;
   padding-top: 30px;
   padding-bottom: 10px;
-  color: #001219;
+  color: #ecf8f8;
   position: relative;
   left: 0;
   bottom: 0;
@@ -152,6 +187,14 @@ footer {
 
 .language div:hover,
 .language2 div:hover {
-  box-shadow: 0px 5px #ecf8f8;
+  box-shadow: 0px 7px lightblue;
   transition: 0.5s;
+  /* font-size:30px; */
+}
+
+.contact {
+  background-color: #fffcf2;
+}
+.contact h1 {
+  text-align: center;
 }
