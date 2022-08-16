@@ -69,8 +69,8 @@ nav ul :hover {
   object-fit: cover;
 }
 
-.bodyContainer{
-  position:relative;
+.bodyContainer {
+  position: relative;
 }
 .bodyContent {
   position: absolute;
@@ -90,20 +90,68 @@ nav ul :hover {
   padding: 20px 30px;
   font-size: 20px;
   font-weight: 100px;
-  text-decoration:none;
-  color:#ecf8f8;
+  text-decoration: none;
+  color: #ecf8f8;
 }
 
 .aHireme:hover {
   font-weight: bold;
   font-size: 21px;
-  transition:0.3s;
-  background-color:#ecf8f8;
+  transition: 0.3s;
+  background-color: #ecf8f8;
   /* box-shadow: 10px 10px  lightblue; */
-  color:#e71d36
+  color: #e71d36;
 }
 
 .aboutMe .aHireme:hover {
   box-shadow: 10px 10px lightblue;
+}
 
+footer {
+  background-color: #e71d36;
+  /* height:50px; */
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  color: #001219;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.mainLanguage {
+  background-color: #1d3557;
+  text-align: center;
+  color: white;
+  padding-bottom: 50px;
+}
+.mainLanguage h1 {
+  padding: 40px 0 60px;
+}
+.language,
+.language2 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-bottom: 40px;
+}
+.language div,
+.language2 div {
+  /* height:40px;
+  width:40px; */
+  background-color: #e71d36;
+  color: #ecf8f8;
+  font-size: 25px;
+  text-align: center;
+  border: solid 1px;
+  /* padding:40px 60px; */
+  padding: 1em 3em;
+  border-radius: 25% 10%;
+}
+
+.language div:hover,
+.language2 div:hover {
+  box-shadow: 0px 5px #ecf8f8;
+  transition: 0.5s;
 }
